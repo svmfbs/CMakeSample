@@ -36,8 +36,5 @@ jobs:
     - name: Build Solution (windows)
       run: |
         cd build
-<<<<<<< HEAD
         MSBuild.exe CMakeHelloWorld.sln
-=======
-        MSBuild.exe CMakeHelloWorld.sln
->>>>>>> origin/main
+
